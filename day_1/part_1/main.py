@@ -1,6 +1,6 @@
 def main():
     numbers = []
-    with open("puzzle_input.txt", encoding="UTF-8") as f:
+    with open("../puzzle_input.txt", encoding="UTF-8") as f:
         lines = f.readlines()
     for line in lines:
         tmp_number_list = []
