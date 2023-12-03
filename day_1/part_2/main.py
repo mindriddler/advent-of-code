@@ -13,7 +13,7 @@ def main():
     sorted_num_words = sorted(num_in_txt_dict.keys(), key=len, reverse=True)
 
     numbers = []
-    with open("../puzzle_input2.txt", encoding="UTF-8") as f:
+    with open("../puzzle_input.txt", encoding="UTF-8") as f:
         lines = f.readlines()
 
     for line in lines:
